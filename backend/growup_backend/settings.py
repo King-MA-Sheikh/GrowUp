@@ -1,5 +1,6 @@
 import dj_database_url
 from pathlib import Path
+import os  # Added to read environment variables safely
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -62,16 +63,15 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'growup_backend.wsgi.application'
 
-# ─── Database Configuration (Hardcoded Supabase) ──────────────────────────────────────
+# ─── Database Configuration (Dynamic Connection Pooler) ──────────────────────────────────
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres.fajsdeaozjkafivqwnoh',
-        'PASSWORD': 'YOUR_SUPABASE_DATABASE_PASSWORD',  # <-- Put your Supabase password here
-        'HOST': 'aws-0-us-east-2.pooler.supabase.com',
-        'PORT': '6543',  # Using connection pooling port 6543 for stable Render deployment
-    }
+    'default': dj_database_url.config(
+        default=os.environ.get(
+            'DATABASE_URL', 
+            'postgresql://postgres.fajsdeaozjkafivqwnoh:M%40spro%23%23900%21@aws-1-us-east-2.pooler.supabase.com:6543/postgres'
+        ),
+        conn_max_age=600
+    )
 }
 
 # Password validation
