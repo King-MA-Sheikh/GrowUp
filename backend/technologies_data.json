@@ -1,0 +1,18 @@
+[
+  {"name": "React", "category": "Frontend", "subcategory": "JavaScript Frameworks", "icon": "⚛️", "popularity": 98, "description": "A JavaScript library for building user interfaces"},
+  {"name": "Vue.js", "category": "Frontend", "subcategory": "JavaScript Frameworks", "icon": "💚", "popularity": 92, "description": "Progressive JavaScript framework"},
+  {"name": "Angular", "category": "Frontend", "subcategory": "JavaScript Frameworks", "icon": "🅰️", "popularity": 88, "description": "Platform for building mobile and desktop web applications"},
+  {"name": "Next.js", "category": "Frontend", "subcategory": "React Frameworks", "icon": "▲", "popularity": 95, "description": "React framework for production"},
+  {"name": "TypeScript", "category": "Frontend", "subcategory": "Languages", "icon": "📘", "popularity": 94, "description": "Typed JavaScript at any scale"},
+  {"name": "Tailwind CSS", "category": "Frontend", "subcategory": "CSS Frameworks", "icon": "🎨", "popularity": 93, "description": "Utility-first CSS framework"},
+  {"name": "Python", "category": "Backend", "subcategory": "Languages", "icon": "🐍", "popularity": 99, "description": "Programming language that lets you work quickly"},
+  {"name": "Django", "category": "Backend", "subcategory": "Web Frameworks", "icon": "🎯", "popularity": 91, "description": "High-level Python web framework"},
+  {"name": "Node.js", "category": "Backend", "subcategory": "Runtime", "icon": "🚀", "popularity": 96, "description": "JavaScript runtime built on Chrome's V8"},
+  {"name": "PostgreSQL", "category": "Database", "subcategory": "Relational", "icon": "🐘", "popularity": 94, "description": "Advanced open-source relational database"},
+  {"name": "MongoDB", "category": "Database", "subcategory": "NoSQL", "icon": "🍃", "popularity": 91, "description": "Document database"},
+  {"name": "Docker", "category": "DevOps", "subcategory": "Containerization", "icon": "🐳", "popularity": 97, "description": "Platform for developing and shipping applications"},
+  {"name": "Kubernetes", "category": "DevOps", "subcategory": "Orchestration", "icon": "⚙️", "popularity": 95, "description": "Container orchestration system"},
+  {"name": "AWS", "category": "Cloud", "subcategory": "Cloud Providers", "icon": "☁️", "popularity": 98, "description": "Amazon Web Services cloud platform"},
+  {"name": "TensorFlow", "category": "AI/ML", "subcategory": "Frameworks", "icon": "🧠", "popularity": 94, "description": "Open-source ML platform"},
+  {"name": "Solidity", "category": "Blockchain", "subcategory": "Languages", "icon": "⛓️", "popularity": 85, "description": "Smart contract programming language"}
+]

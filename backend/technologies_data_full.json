@@ -1,0 +1,1289 @@
+[
+  {
+    "name": "React",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "⚛️",
+    "popularity": 98,
+    "description": "A JavaScript library for building user interfaces",
+    "long_description": "React is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Vue.js",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "💚",
+    "popularity": 92,
+    "description": "Progressive JavaScript framework for building UIs",
+    "long_description": "Vue.js is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Angular",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "🅰️",
+    "popularity": 88,
+    "description": "Platform for building mobile and desktop web applications",
+    "long_description": "Angular is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Next.js",
+    "category": "Frontend",
+    "subcategory": "React Frameworks",
+    "icon": "▲",
+    "popularity": 95,
+    "description": "React framework for production with SSR and SSG",
+    "long_description": "Next.js is a leading frontend technology in the React Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "TypeScript",
+    "category": "Frontend",
+    "subcategory": "Languages",
+    "icon": "📘",
+    "popularity": 94,
+    "description": "Typed JavaScript at any scale",
+    "long_description": "TypeScript is a leading frontend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Tailwind CSS",
+    "category": "Frontend",
+    "subcategory": "CSS Frameworks",
+    "icon": "🎨",
+    "popularity": 93,
+    "description": "Utility-first CSS framework for rapid UI development",
+    "long_description": "Tailwind CSS is a leading frontend technology in the CSS Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Svelte",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "🟢",
+    "popularity": 87,
+    "description": "Cybernetically enhanced web apps",
+    "long_description": "Svelte is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Nuxt.js",
+    "category": "Frontend",
+    "subcategory": "Vue Frameworks",
+    "icon": "🟢",
+    "popularity": 86,
+    "description": "Intuitive Vue framework",
+    "long_description": "Nuxt.js is a leading frontend technology in the Vue Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Gatsby",
+    "category": "Frontend",
+    "subcategory": "React Frameworks",
+    "icon": "🚀",
+    "popularity": 84,
+    "description": "Blazing fast static site generator",
+    "long_description": "Gatsby is a leading frontend technology in the React Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Remix",
+    "category": "Frontend",
+    "subcategory": "React Frameworks",
+    "icon": "📦",
+    "popularity": 83,
+    "description": "Full stack web framework",
+    "long_description": "Remix is a leading frontend technology in the React Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "SolidJS",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "⚡",
+    "popularity": 82,
+    "description": "Declarative JavaScript library",
+    "long_description": "SolidJS is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Qwik",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "⚡",
+    "popularity": 81,
+    "description": "Instant loading web apps",
+    "long_description": "Qwik is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Alpine.js",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "🏔️",
+    "popularity": 79,
+    "description": "Lightweight JavaScript framework",
+    "long_description": "Alpine.js is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Preact",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "⚛️",
+    "popularity": 78,
+    "description": "Fast 3kB React alternative",
+    "long_description": "Preact is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Lit",
+    "category": "Frontend",
+    "subcategory": "Web Components",
+    "icon": "🔥",
+    "popularity": 77,
+    "description": "Simple library for building web components",
+    "long_description": "Lit is a leading frontend technology in the Web Components space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Stencil",
+    "category": "Frontend",
+    "subcategory": "Web Components",
+    "icon": "⚡",
+    "popularity": 76,
+    "description": "Web component compiler",
+    "long_description": "Stencil is a leading frontend technology in the Web Components space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Bootstrap",
+    "category": "Frontend",
+    "subcategory": "CSS Frameworks",
+    "icon": "🎨",
+    "popularity": 90,
+    "description": "Popular CSS framework for responsive design",
+    "long_description": "Bootstrap is a leading frontend technology in the CSS Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Material UI",
+    "category": "Frontend",
+    "subcategory": "Component Libraries",
+    "icon": "🎨",
+    "popularity": 88,
+    "description": "React components for faster development",
+    "long_description": "Material UI is a leading frontend technology in the Component Libraries space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Chakra UI",
+    "category": "Frontend",
+    "subcategory": "Component Libraries",
+    "icon": "🎨",
+    "popularity": 86,
+    "description": "Simple modular component library",
+    "long_description": "Chakra UI is a leading frontend technology in the Component Libraries space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Ant Design",
+    "category": "Frontend",
+    "subcategory": "Component Libraries",
+    "icon": "🐜",
+    "popularity": 85,
+    "description": "Enterprise-class UI design language",
+    "long_description": "Ant Design is a leading frontend technology in the Component Libraries space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Shadcn/ui",
+    "category": "Frontend",
+    "subcategory": "Component Libraries",
+    "icon": "✨",
+    "popularity": 89,
+    "description": "Beautifully designed components",
+    "long_description": "Shadcn/ui is a leading frontend technology in the Component Libraries space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Framer Motion",
+    "category": "Frontend",
+    "subcategory": "Animation",
+    "icon": "🎬",
+    "popularity": 85,
+    "description": "Production-ready animation library",
+    "long_description": "Framer Motion is a leading frontend technology in the Animation space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "GSAP",
+    "category": "Frontend",
+    "subcategory": "Animation",
+    "icon": "🎬",
+    "popularity": 84,
+    "description": "Professional-grade animation",
+    "long_description": "GSAP is a leading frontend technology in the Animation space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Three.js",
+    "category": "Frontend",
+    "subcategory": "3D Graphics",
+    "icon": "🎮",
+    "popularity": 86,
+    "description": "JavaScript 3D library",
+    "long_description": "Three.js is a leading frontend technology in the 3D Graphics space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "D3.js",
+    "category": "Frontend",
+    "subcategory": "Data Visualization",
+    "icon": "📊",
+    "popularity": 87,
+    "description": "Data-driven documents",
+    "long_description": "D3.js is a leading frontend technology in the Data Visualization space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Chart.js",
+    "category": "Frontend",
+    "subcategory": "Data Visualization",
+    "icon": "📈",
+    "popularity": 85,
+    "description": "Simple charting library",
+    "long_description": "Chart.js is a leading frontend technology in the Data Visualization space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Recharts",
+    "category": "Frontend",
+    "subcategory": "Data Visualization",
+    "icon": "📊",
+    "popularity": 83,
+    "description": "Composable chart library",
+    "long_description": "Recharts is a leading frontend technology in the Data Visualization space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Redux",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "icon": "🔄",
+    "popularity": 89,
+    "description": "Predictable state container",
+    "long_description": "Redux is a leading frontend technology in the State Management space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Zustand",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "icon": "🐻",
+    "popularity": 88,
+    "description": "Small and fast state management",
+    "long_description": "Zustand is a leading frontend technology in the State Management space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Jotai",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "icon": "⚛️",
+    "popularity": 85,
+    "description": "Primitive and flexible state",
+    "long_description": "Jotai is a leading frontend technology in the State Management space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "MobX",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "icon": "🔄",
+    "popularity": 84,
+    "description": "Simple scalable state management",
+    "long_description": "MobX is a leading frontend technology in the State Management space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Recoil",
+    "category": "Frontend",
+    "subcategory": "State Management",
+    "icon": "⚛️",
+    "popularity": 82,
+    "description": "Experimental state management",
+    "long_description": "Recoil is a leading frontend technology in the State Management space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Webpack",
+    "category": "Frontend",
+    "subcategory": "Build Tools",
+    "icon": "📦",
+    "popularity": 90,
+    "description": "Module bundler",
+    "long_description": "Webpack is a leading frontend technology in the Build Tools space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Vite",
+    "category": "Frontend",
+    "subcategory": "Build Tools",
+    "icon": "⚡",
+    "popularity": 92,
+    "description": "Next generation frontend tooling",
+    "long_description": "Vite is a leading frontend technology in the Build Tools space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Rollup",
+    "category": "Frontend",
+    "subcategory": "Build Tools",
+    "icon": "📦",
+    "popularity": 86,
+    "description": "Module bundler for JavaScript",
+    "long_description": "Rollup is a leading frontend technology in the Build Tools space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Parcel",
+    "category": "Frontend",
+    "subcategory": "Build Tools",
+    "icon": "📦",
+    "popularity": 84,
+    "description": "Blazing fast bundler",
+    "long_description": "Parcel is a leading frontend technology in the Build Tools space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "ESLint",
+    "category": "Frontend",
+    "subcategory": "Linting",
+    "icon": "🔍",
+    "popularity": 88,
+    "description": "Pluggable JavaScript linter",
+    "long_description": "ESLint is a leading frontend technology in the Linting space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Prettier",
+    "category": "Frontend",
+    "subcategory": "Formatting",
+    "icon": "💅",
+    "popularity": 89,
+    "description": "Opinionated code formatter",
+    "long_description": "Prettier is a leading frontend technology in the Formatting space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Jest",
+    "category": "Frontend",
+    "subcategory": "Testing",
+    "icon": "🃏",
+    "popularity": 90,
+    "description": "Delightful JavaScript testing",
+    "long_description": "Jest is a leading frontend technology in the Testing space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Vitest",
+    "category": "Frontend",
+    "subcategory": "Testing",
+    "icon": "⚡",
+    "popularity": 87,
+    "description": "Blazing fast unit test framework",
+    "long_description": "Vitest is a leading frontend technology in the Testing space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Cypress",
+    "category": "Frontend",
+    "subcategory": "Testing",
+    "icon": "🌲",
+    "popularity": 88,
+    "description": "Fast testing framework",
+    "long_description": "Cypress is a leading frontend technology in the Testing space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Playwright",
+    "category": "Frontend",
+    "subcategory": "Testing",
+    "icon": "🎭",
+    "popularity": 89,
+    "description": "Reliable end-to-end testing",
+    "long_description": "Playwright is a leading frontend technology in the Testing space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "React Testing Library",
+    "category": "Frontend",
+    "subcategory": "Testing",
+    "icon": "🧪",
+    "popularity": 87,
+    "description": "Simple testing utilities",
+    "long_description": "React Testing Library is a leading frontend technology in the Testing space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Storybook",
+    "category": "Frontend",
+    "subcategory": "Documentation",
+    "icon": "📚",
+    "popularity": 86,
+    "description": "UI component workshop",
+    "long_description": "Storybook is a leading frontend technology in the Documentation space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Ember.js",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "🔷",
+    "popularity": 78,
+    "description": "Framework for ambitious web developers",
+    "long_description": "Ember.js is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Backbone.js",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "🔶",
+    "popularity": 72,
+    "description": "Lightweight MVC framework",
+    "long_description": "Backbone.js is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Meteor.js",
+    "category": "Frontend",
+    "subcategory": "JavaScript Frameworks",
+    "icon": "☄️",
+    "popularity": 70,
+    "description": "Full-stack JavaScript platform",
+    "long_description": "Meteor.js is a leading frontend technology in the JavaScript Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Handlebars",
+    "category": "Frontend",
+    "subcategory": "Templating",
+    "icon": "📝",
+    "popularity": 75,
+    "description": "Minimal templating language",
+    "long_description": "Handlebars is a leading frontend technology in the Templating space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Pug",
+    "category": "Frontend",
+    "subcategory": "Templating",
+    "icon": "🐶",
+    "popularity": 73,
+    "description": "High-performance template engine",
+    "long_description": "Pug is a leading frontend technology in the Templating space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Python",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🐍",
+    "popularity": 99,
+    "description": "Programming language that lets you work quickly",
+    "long_description": "Python is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Node.js",
+    "category": "Backend",
+    "subcategory": "Runtime",
+    "icon": "🚀",
+    "popularity": 96,
+    "description": "JavaScript runtime built on Chrome's V8",
+    "long_description": "Node.js is a leading backend technology in the Runtime space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Django",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🎯",
+    "popularity": 91,
+    "description": "High-level Python web framework",
+    "long_description": "Django is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Flask",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🌶️",
+    "popularity": 88,
+    "description": "Lightweight Python web framework",
+    "long_description": "Flask is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "FastAPI",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "⚡",
+    "popularity": 89,
+    "description": "Modern Python web framework",
+    "long_description": "FastAPI is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Express.js",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🚂",
+    "popularity": 94,
+    "description": "Fast web framework for Node.js",
+    "long_description": "Express.js is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "NestJS",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🦁",
+    "popularity": 87,
+    "description": "Progressive Node.js framework",
+    "long_description": "NestJS is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Spring Boot",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🌱",
+    "popularity": 90,
+    "description": "Java framework for microservices",
+    "long_description": "Spring Boot is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Laravel",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "⚙️",
+    "popularity": 89,
+    "description": "PHP web framework",
+    "long_description": "Laravel is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Ruby on Rails",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "💎",
+    "popularity": 86,
+    "description": "Web application framework",
+    "long_description": "Ruby on Rails is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Go",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🔵",
+    "popularity": 92,
+    "description": "Statically typed compiled language",
+    "long_description": "Go is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Rust",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🦀",
+    "popularity": 90,
+    "description": "Performance-focused language",
+    "long_description": "Rust is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Java",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "☕",
+    "popularity": 94,
+    "description": "Object-oriented programming language",
+    "long_description": "Java is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "C#",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🔷",
+    "popularity": 91,
+    "description": "Modern object-oriented language",
+    "long_description": "C# is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "PHP",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🐘",
+    "popularity": 87,
+    "description": "Server-side scripting language",
+    "long_description": "PHP is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Kotlin",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🎯",
+    "popularity": 85,
+    "description": "Modern JVM language",
+    "long_description": "Kotlin is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Swift",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🦅",
+    "popularity": 86,
+    "description": "iOS development language",
+    "long_description": "Swift is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "GraphQL",
+    "category": "Backend",
+    "subcategory": "API",
+    "icon": "📊",
+    "popularity": 91,
+    "description": "Query language for APIs",
+    "long_description": "GraphQL is a leading backend technology in the API space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "REST API",
+    "category": "Backend",
+    "subcategory": "API",
+    "icon": "🔌",
+    "popularity": 96,
+    "description": "Architectural style for APIs",
+    "long_description": "REST API is a leading backend technology in the API space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "gRPC",
+    "category": "Backend",
+    "subcategory": "API",
+    "icon": "🔌",
+    "popularity": 85,
+    "description": "High-performance RPC framework",
+    "long_description": "gRPC is a leading backend technology in the API space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "WebSocket",
+    "category": "Backend",
+    "subcategory": "API",
+    "icon": "🔄",
+    "popularity": 88,
+    "description": "Real-time communication protocol",
+    "long_description": "WebSocket is a leading backend technology in the API space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "JWT",
+    "category": "Backend",
+    "subcategory": "Authentication",
+    "icon": "🔐",
+    "popularity": 89,
+    "description": "JSON Web Tokens",
+    "long_description": "JWT is a leading backend technology in the Authentication space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "OAuth",
+    "category": "Backend",
+    "subcategory": "Authentication",
+    "icon": "🔑",
+    "popularity": 90,
+    "description": "Open authorization protocol",
+    "long_description": "OAuth is a leading backend technology in the Authentication space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "ASP.NET Core",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🔷",
+    "popularity": 86,
+    "description": "Cross-platform framework",
+    "long_description": "ASP.NET Core is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Fiber",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "⚡",
+    "popularity": 80,
+    "description": "Express-inspired framework for Go",
+    "long_description": "Fiber is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Actix Web",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🦀",
+    "popularity": 82,
+    "description": "Powerful Rust framework",
+    "long_description": "Actix Web is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Scala",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "🔴",
+    "popularity": 78,
+    "description": "Scalable language",
+    "long_description": "Scala is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Elixir",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "💧",
+    "popularity": 79,
+    "description": "Dynamic functional language",
+    "long_description": "Elixir is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Phoenix",
+    "category": "Backend",
+    "subcategory": "Web Frameworks",
+    "icon": "🔥",
+    "popularity": 81,
+    "description": "Productive web framework",
+    "long_description": "Phoenix is a leading backend technology in the Web Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Haskell",
+    "category": "Backend",
+    "subcategory": "Languages",
+    "icon": "📚",
+    "popularity": 72,
+    "description": "Purely functional language",
+    "long_description": "Haskell is a leading backend technology in the Languages space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "Database",
+    "subcategory": "Relational",
+    "icon": "🐘",
+    "popularity": 94,
+    "description": "Advanced open-source relational database",
+    "long_description": "PostgreSQL is a leading database technology in the Relational space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "MySQL",
+    "category": "Database",
+    "subcategory": "Relational",
+    "icon": "🐬",
+    "popularity": 92,
+    "description": "Popular open-source relational database",
+    "long_description": "MySQL is a leading database technology in the Relational space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "MongoDB",
+    "category": "Database",
+    "subcategory": "NoSQL",
+    "icon": "🍃",
+    "popularity": 91,
+    "description": "Document database",
+    "long_description": "MongoDB is a leading database technology in the NoSQL space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Redis",
+    "category": "Database",
+    "subcategory": "In-Memory",
+    "icon": "📀",
+    "popularity": 93,
+    "description": "In-memory data structure store",
+    "long_description": "Redis is a leading database technology in the In-Memory space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Cassandra",
+    "category": "Database",
+    "subcategory": "NoSQL",
+    "icon": "🔮",
+    "popularity": 84,
+    "description": "Distributed NoSQL database",
+    "long_description": "Cassandra is a leading database technology in the NoSQL space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Elasticsearch",
+    "category": "Database",
+    "subcategory": "Search",
+    "icon": "🔍",
+    "popularity": 88,
+    "description": "Distributed search engine",
+    "long_description": "Elasticsearch is a leading database technology in the Search space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "DynamoDB",
+    "category": "Database",
+    "subcategory": "NoSQL",
+    "icon": "📊",
+    "popularity": 87,
+    "description": "AWS NoSQL database",
+    "long_description": "DynamoDB is a leading database technology in the NoSQL space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Firebase",
+    "category": "Database",
+    "subcategory": "Real-time",
+    "icon": "🔥",
+    "popularity": 89,
+    "description": "Real-time NoSQL database",
+    "long_description": "Firebase is a leading database technology in the Real-time space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Supabase",
+    "category": "Database",
+    "subcategory": "Relational",
+    "icon": "📦",
+    "popularity": 86,
+    "description": "Open-source Firebase alternative",
+    "long_description": "Supabase is a leading database technology in the Relational space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "SQLite",
+    "category": "Database",
+    "subcategory": "Embedded",
+    "icon": "📁",
+    "popularity": 85,
+    "description": "Embedded SQL database",
+    "long_description": "SQLite is a leading database technology in the Embedded space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Oracle",
+    "category": "Database",
+    "subcategory": "Relational",
+    "icon": "🔶",
+    "popularity": 84,
+    "description": "Enterprise relational database",
+    "long_description": "Oracle is a leading database technology in the Relational space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "SQL Server",
+    "category": "Database",
+    "subcategory": "Relational",
+    "icon": "🪟",
+    "popularity": 86,
+    "description": "Microsoft relational database",
+    "long_description": "SQL Server is a leading database technology in the Relational space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "MariaDB",
+    "category": "Database",
+    "subcategory": "Relational",
+    "icon": "🐬",
+    "popularity": 85,
+    "description": "MySQL fork",
+    "long_description": "MariaDB is a leading database technology in the Relational space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "CouchDB",
+    "category": "Database",
+    "subcategory": "NoSQL",
+    "icon": "🛋️",
+    "popularity": 80,
+    "description": "JSON-based document database",
+    "long_description": "CouchDB is a leading database technology in the NoSQL space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Neo4j",
+    "category": "Database",
+    "subcategory": "Graph",
+    "icon": "🔗",
+    "popularity": 83,
+    "description": "Graph database",
+    "long_description": "Neo4j is a leading database technology in the Graph space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "ArangoDB",
+    "category": "Database",
+    "subcategory": "Multi-model",
+    "icon": "🔷",
+    "popularity": 82,
+    "description": "Multi-model database",
+    "long_description": "ArangoDB is a leading database technology in the Multi-model space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "InfluxDB",
+    "category": "Database",
+    "subcategory": "Time-series",
+    "icon": "📈",
+    "popularity": 82,
+    "description": "Time-series database",
+    "long_description": "InfluxDB is a leading database technology in the Time-series space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "TimescaleDB",
+    "category": "Database",
+    "subcategory": "Time-series",
+    "icon": "⏱️",
+    "popularity": 81,
+    "description": "Time-series PostgreSQL",
+    "long_description": "TimescaleDB is a leading database technology in the Time-series space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "ClickHouse",
+    "category": "Database",
+    "subcategory": "Analytics",
+    "icon": "📊",
+    "popularity": 84,
+    "description": "Column-oriented database",
+    "long_description": "ClickHouse is a leading database technology in the Analytics space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Snowflake",
+    "category": "Database",
+    "subcategory": "Cloud",
+    "icon": "❄️",
+    "popularity": 87,
+    "description": "Cloud data platform",
+    "long_description": "Snowflake is a leading database technology in the Cloud space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "BigQuery",
+    "category": "Database",
+    "subcategory": "Cloud",
+    "icon": "🔍",
+    "popularity": 88,
+    "description": "Google cloud data warehouse",
+    "long_description": "BigQuery is a leading database technology in the Cloud space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Redshift",
+    "category": "Database",
+    "subcategory": "Cloud",
+    "icon": "🔴",
+    "popularity": 86,
+    "description": "AWS cloud data warehouse",
+    "long_description": "Redshift is a leading database technology in the Cloud space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "CockroachDB",
+    "category": "Database",
+    "subcategory": "Distributed",
+    "icon": "🐞",
+    "popularity": 83,
+    "description": "Cloud-native distributed SQL",
+    "long_description": "CockroachDB is a leading database technology in the Distributed space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "TiDB",
+    "category": "Database",
+    "subcategory": "NewSQL",
+    "icon": "🔷",
+    "popularity": 82,
+    "description": "Distributed NewSQL database",
+    "long_description": "TiDB is a leading database technology in the NewSQL space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Docker",
+    "category": "DevOps",
+    "subcategory": "Containerization",
+    "icon": "🐳",
+    "popularity": 97,
+    "description": "Platform for developing and shipping applications",
+    "long_description": "Docker is a leading devops technology in the Containerization space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "subcategory": "Orchestration",
+    "icon": "⚙️",
+    "popularity": 95,
+    "description": "Container orchestration system",
+    "long_description": "Kubernetes is a leading devops technology in the Orchestration space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "AWS",
+    "category": "DevOps",
+    "subcategory": "Cloud Providers",
+    "icon": "☁️",
+    "popularity": 98,
+    "description": "Amazon Web Services",
+    "long_description": "AWS is a leading devops technology in the Cloud Providers space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Azure",
+    "category": "DevOps",
+    "subcategory": "Cloud Providers",
+    "icon": "☁️",
+    "popularity": 94,
+    "description": "Microsoft Azure cloud",
+    "long_description": "Azure is a leading devops technology in the Cloud Providers space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "GCP",
+    "category": "DevOps",
+    "subcategory": "Cloud Providers",
+    "icon": "☁️",
+    "popularity": 93,
+    "description": "Google Cloud Platform",
+    "long_description": "GCP is a leading devops technology in the Cloud Providers space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Terraform",
+    "category": "DevOps",
+    "subcategory": "Infrastructure",
+    "icon": "🏗️",
+    "popularity": 92,
+    "description": "Infrastructure as Code",
+    "long_description": "Terraform is a leading devops technology in the Infrastructure space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Ansible",
+    "category": "DevOps",
+    "subcategory": "Automation",
+    "icon": "📦",
+    "popularity": 88,
+    "description": "Automation platform",
+    "long_description": "Ansible is a leading devops technology in the Automation space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Jenkins",
+    "category": "DevOps",
+    "subcategory": "CI/CD",
+    "icon": "🔧",
+    "popularity": 90,
+    "description": "Automation server",
+    "long_description": "Jenkins is a leading devops technology in the CI/CD space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "GitHub Actions",
+    "category": "DevOps",
+    "subcategory": "CI/CD",
+    "icon": "⚡",
+    "popularity": 94,
+    "description": "CI/CD automation",
+    "long_description": "GitHub Actions is a leading devops technology in the CI/CD space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "GitLab CI",
+    "category": "DevOps",
+    "subcategory": "CI/CD",
+    "icon": "🦊",
+    "popularity": 91,
+    "description": "GitLab continuous integration",
+    "long_description": "GitLab CI is a leading devops technology in the CI/CD space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "CircleCI",
+    "category": "DevOps",
+    "subcategory": "CI/CD",
+    "icon": "🔵",
+    "popularity": 88,
+    "description": "Continuous integration platform",
+    "long_description": "CircleCI is a leading devops technology in the CI/CD space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "ArgoCD",
+    "category": "DevOps",
+    "subcategory": "CD",
+    "icon": "🔵",
+    "popularity": 89,
+    "description": "Declarative GitOps CD",
+    "long_description": "ArgoCD is a leading devops technology in the CD space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Helm",
+    "category": "DevOps",
+    "subcategory": "Package Manager",
+    "icon": "🎩",
+    "popularity": 88,
+    "description": "Kubernetes package manager",
+    "long_description": "Helm is a leading devops technology in the Package Manager space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Istio",
+    "category": "DevOps",
+    "subcategory": "Service Mesh",
+    "icon": "🔗",
+    "popularity": 86,
+    "description": "Service mesh platform",
+    "long_description": "Istio is a leading devops technology in the Service Mesh space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Prometheus",
+    "category": "DevOps",
+    "subcategory": "Monitoring",
+    "icon": "📊",
+    "popularity": 90,
+    "description": "Monitoring system",
+    "long_description": "Prometheus is a leading devops technology in the Monitoring space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Grafana",
+    "category": "DevOps",
+    "subcategory": "Monitoring",
+    "icon": "📈",
+    "popularity": 91,
+    "description": "Observability platform",
+    "long_description": "Grafana is a leading devops technology in the Monitoring space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Datadog",
+    "category": "DevOps",
+    "subcategory": "Monitoring",
+    "icon": "🐕",
+    "popularity": 89,
+    "description": "Cloud monitoring platform",
+    "long_description": "Datadog is a leading devops technology in the Monitoring space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "New Relic",
+    "category": "DevOps",
+    "subcategory": "Monitoring",
+    "icon": "🔵",
+    "popularity": 87,
+    "description": "Observability platform",
+    "long_description": "New Relic is a leading devops technology in the Monitoring space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "ELK Stack",
+    "category": "DevOps",
+    "subcategory": "Logging",
+    "icon": "📊",
+    "popularity": 88,
+    "description": "Elasticsearch, Logstash, Kibana",
+    "long_description": "ELK Stack is a leading devops technology in the Logging space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Splunk",
+    "category": "DevOps",
+    "subcategory": "Logging",
+    "icon": "🔍",
+    "popularity": 86,
+    "description": "Data platform for observability",
+    "long_description": "Splunk is a leading devops technology in the Logging space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Pulumi",
+    "category": "DevOps",
+    "subcategory": "Infrastructure",
+    "icon": "🔷",
+    "popularity": 85,
+    "description": "Modern Infrastructure as Code",
+    "long_description": "Pulumi is a leading devops technology in the Infrastructure space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Vagrant",
+    "category": "DevOps",
+    "subcategory": "Virtualization",
+    "icon": "📦",
+    "popularity": 80,
+    "description": "Development environment manager",
+    "long_description": "Vagrant is a leading devops technology in the Virtualization space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Chef",
+    "category": "DevOps",
+    "subcategory": "Configuration",
+    "icon": "🍳",
+    "popularity": 78,
+    "description": "Infrastructure automation",
+    "long_description": "Chef is a leading devops technology in the Configuration space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Puppet",
+    "category": "DevOps",
+    "subcategory": "Configuration",
+    "icon": "🎭",
+    "popularity": 77,
+    "description": "Configuration management",
+    "long_description": "Puppet is a leading devops technology in the Configuration space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "TensorFlow",
+    "category": "AI/ML",
+    "subcategory": "Frameworks",
+    "icon": "🧠",
+    "popularity": 94,
+    "description": "Open-source ML platform",
+    "long_description": "TensorFlow is a leading ai/ml technology in the Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "PyTorch",
+    "category": "AI/ML",
+    "subcategory": "Frameworks",
+    "icon": "🔥",
+    "popularity": 95,
+    "description": "Deep learning framework",
+    "long_description": "PyTorch is a leading ai/ml technology in the Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Keras",
+    "category": "AI/ML",
+    "subcategory": "Frameworks",
+    "icon": "🧠",
+    "popularity": 90,
+    "description": "Deep learning API",
+    "long_description": "Keras is a leading ai/ml technology in the Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Scikit-learn",
+    "category": "AI/ML",
+    "subcategory": "Libraries",
+    "icon": "📊",
+    "popularity": 92,
+    "description": "Machine learning library",
+    "long_description": "Scikit-learn is a leading ai/ml technology in the Libraries space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "OpenCV",
+    "category": "AI/ML",
+    "subcategory": "Computer Vision",
+    "icon": "👁️",
+    "popularity": 89,
+    "description": "Computer vision library",
+    "long_description": "OpenCV is a leading ai/ml technology in the Computer Vision space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Pandas",
+    "category": "AI/ML",
+    "subcategory": "Data Analysis",
+    "icon": "🐼",
+    "popularity": 93,
+    "description": "Data manipulation library",
+    "long_description": "Pandas is a leading ai/ml technology in the Data Analysis space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "NumPy",
+    "category": "AI/ML",
+    "subcategory": "Scientific Computing",
+    "icon": "🔢",
+    "popularity": 94,
+    "description": "Scientific computing library",
+    "long_description": "NumPy is a leading ai/ml technology in the Scientific Computing space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "LangChain",
+    "category": "AI/ML",
+    "subcategory": "LLM",
+    "icon": "🔗",
+    "popularity": 91,
+    "description": "Language model framework",
+    "long_description": "LangChain is a leading ai/ml technology in the LLM space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "OpenAI",
+    "category": "AI/ML",
+    "subcategory": "LLM",
+    "icon": "🤖",
+    "popularity": 96,
+    "description": "AI research and deployment",
+    "long_description": "OpenAI is a leading ai/ml technology in the LLM space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Hugging Face",
+    "category": "AI/ML",
+    "subcategory": "LLM",
+    "icon": "🤗",
+    "popularity": 93,
+    "description": "AI model hub",
+    "long_description": "Hugging Face is a leading ai/ml technology in the LLM space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "LlamaIndex",
+    "category": "AI/ML",
+    "subcategory": "LLM",
+    "icon": "🦙",
+    "popularity": 87,
+    "description": "Data framework for LLMs",
+    "long_description": "LlamaIndex is a leading ai/ml technology in the LLM space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Transformers",
+    "category": "AI/ML",
+    "subcategory": "LLM",
+    "icon": "🔄",
+    "popularity": 90,
+    "description": "Pre-trained models library",
+    "long_description": "Transformers is a leading ai/ml technology in the LLM space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "JAX",
+    "category": "AI/ML",
+    "subcategory": "Frameworks",
+    "icon": "⚡",
+    "popularity": 85,
+    "description": "Numerical computing library",
+    "long_description": "JAX is a leading ai/ml technology in the Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "MXNet",
+    "category": "AI/ML",
+    "subcategory": "Frameworks",
+    "icon": "🔷",
+    "popularity": 78,
+    "description": "Deep learning framework",
+    "long_description": "MXNet is a leading ai/ml technology in the Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Caffe",
+    "category": "AI/ML",
+    "subcategory": "Frameworks",
+    "icon": "☕",
+    "popularity": 72,
+    "description": "Deep learning framework",
+    "long_description": "Caffe is a leading ai/ml technology in the Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  },
+  {
+    "name": "Theano",
+    "category": "AI/ML",
+    "subcategory": "Frameworks",
+    "icon": "🔢",
+    "popularity": 68,
+    "description": "Numerical computation library",
+    "long_description": "Theano is a leading ai/ml technology in the Frameworks space. It is widely used by developers worldwide for building modern, scalable applications."
+  }
+]
