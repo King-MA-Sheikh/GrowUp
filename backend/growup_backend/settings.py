@@ -13,9 +13,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-growup-dev-key-change-in-production')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False') == 'False'
+DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,*').split(',')
 
 # Application definition
 INSTALLED_APPS = [
@@ -68,11 +68,29 @@ TEMPLATES = [
 WSGI_APPLICATION = 'growup_backend.wsgi.application'
 
 # Database
-DATABASES = {
-    "default": dj_database_url.parse(
-        os.environ.get("DATABASE_URL")
-    )
-}
+# Database Configuration
+# Supports local discrete variables and production unified DATABASE_URL strings
+if os.environ.get("DATABASE_URL"):
+    # Production / Render environment (Supabase)
+    DATABASES = {
+        "default": dj_database_url.parse(
+            os.environ.get("DATABASE_URL"),
+            conn_max_age=600,
+            conn_health_checks=True,
+        )
+    }
+else:
+    # Local development environment (using your .env file details)
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": os.environ.get("DB_NAME", "growup"),
+            "USER": os.environ.get("DB_USER", "postgres"),
+            "PASSWORD": os.environ.get("DB_PASSWORD", ""),
+            "HOST": os.environ.get("DB_HOST", "localhost"),
+            "PORT": os.environ.get("DB_PORT", "5432"),
+        }
+    }
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
