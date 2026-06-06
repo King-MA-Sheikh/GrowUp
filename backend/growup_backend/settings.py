@@ -1,21 +1,16 @@
 import dj_database_url
-import os
 from pathlib import Path
-from dotenv import load_dotenv
-
-# Load environment variables - make sure this is at the top
-load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-growup-dev-key-change-in-production')
+SECRET_KEY = 'l@e$l6*(su!q7r@5cp3z*=f*7x!is4vx%6grstq6(7mexnyq+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+DEBUG = False
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,*').split(',')
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
@@ -67,30 +62,17 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'growup_backend.wsgi.application'
 
-# Database
-# Database Configuration
-# Supports local discrete variables and production unified DATABASE_URL strings
-if os.environ.get("DATABASE_URL"):
-    # Production / Render environment (Supabase)
-    DATABASES = {
-        "default": dj_database_url.parse(
-            os.environ.get("DATABASE_URL"),
-            conn_max_age=600,
-            conn_health_checks=True,
-        )
+# ─── Database Configuration (Hardcoded Supabase) ──────────────────────────────────────
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres.fajsdeaozjkafivqwnoh',
+        'PASSWORD': 'YOUR_SUPABASE_DATABASE_PASSWORD',  # <-- Put your Supabase password here
+        'HOST': 'aws-0-us-east-2.pooler.supabase.com',
+        'PORT': '6543',  # Using connection pooling port 6543 for stable Render deployment
     }
-else:
-    # Local development environment (using your .env file details)
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.postgresql",
-            "NAME": os.environ.get("DB_NAME", "growup"),
-            "USER": os.environ.get("DB_USER", "postgres"),
-            "PASSWORD": os.environ.get("DB_PASSWORD", ""),
-            "HOST": os.environ.get("DB_HOST", "localhost"),
-            "PORT": os.environ.get("DB_PORT", "5432"),
-        }
-    }
+}
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
@@ -228,31 +210,28 @@ CORS_ALLOW_HEADERS = [
 ]
 
 # ─── Email Configuration ──────────────────────────────────────────────────────────────────
-EMAIL_BACKEND = os.environ.get('EMAIL_BACKEND', 'django.core.mail.backends.smtp.EmailBackend')
-EMAIL_HOST = os.environ.get('EMAIL_HOST', 'smtp.gmail.com')
-EMAIL_PORT = int(os.environ.get('EMAIL_PORT', 587))
-EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS', 'True') == 'True'
-EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'alkamahsheikh900@gmail.com')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')
-DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL', 'alkamahsheikh900@gmail.com')
-CONTACT_EMAIL = os.environ.get('CONTACT_EMAIL', 'alkamahsheikh900@gmail.com')
-ADMIN_EMAIL = os.environ.get('ADMIN_EMAIL', 'alkamahsheikh900@gmail.com')
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'alkamahsheikh900@gmail.com'
+EMAIL_HOST_PASSWORD = 'YOUR_GMAIL_APP_PASSWORD'  # <-- Put your 16-character Google App Password here
+DEFAULT_FROM_EMAIL = 'alkamahsheikh900@gmail.com'
+CONTACT_EMAIL = 'alkamahsheikh900@gmail.com'
+ADMIN_EMAIL = 'alkamahsheikh900@gmail.com'
 
 # ─── Razorpay Configuration ────────────────────────────────────────────────────────────────
-RAZORPAY_KEY_ID = os.environ.get('RAZORPAY_KEY_ID', '')
-RAZORPAY_KEY_SECRET = os.environ.get('RAZORPAY_KEY_SECRET', '')
-BUSINESS_UPI_ID = os.environ.get('BUSINESS_UPI_ID', 'alkamahsheikh900@oksbi')
+RAZORPAY_KEY_ID = 'rzp_test_SxOkC70All4rkd'
+RAZORPAY_KEY_SECRET = 'YOUR_RAZORPAY_KEY_SECRET'  # <-- Put your Razorpay secret key here
+BUSINESS_UPI_ID = 'alkamahsheikh900@oksbi'
 
 # ─── Custom User Model ────────────────────────────────────────────────────────────────────
 AUTH_USER_MODEL = 'api.User'
 
-# Debug print to verify keys are loaded (remove in production)
-print(f"✅ Razorpay Key ID loaded: {RAZORPAY_KEY_ID[:10]}..." if RAZORPAY_KEY_ID else "❌ Razorpay Key ID NOT loaded")
-print(f"✅ Razorpay Key Secret loaded: {RAZORPAY_KEY_SECRET[:10]}..." if RAZORPAY_KEY_SECRET else "❌ Razorpay Key Secret NOT loaded")
-
-
 # ─── Security Settings (for production) ────────────────────────────────────────────────────
 if not DEBUG:
+    # Render routes via HTTP internally but serves HTTPS externally. 
+    # These settings guarantee secure session tokens.
     SECURE_BROWSER_XSS_FILTER = True
     SECURE_CONTENT_TYPE_NOSNIFF = True
     X_FRAME_OPTIONS = 'DENY'
